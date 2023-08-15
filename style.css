@@ -1,0 +1,46 @@
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(to right, #8EA4D2, #6279B8);
+    margin: 0;
+    padding: 0;
+}
+
+.usernameForm,
+.passwordForm {
+    width: 400px;
+}
+
+.btnLoginForm {
+    width: 400px;
+}
+
+.open-eye {
+    background-color: transparent;
+    border: none;
+    margin-left: -42px;
+    transition: transform 0.3s ease-in-out;
+    width: 30px;
+    margin: 6px 0px 0px -25px;
+}
+
+.close-eye {
+    background-color: transparent;
+    border: none;
+    margin-left: -43px;
+    transition: transform 0.3s ease-in-out;
+    width: 30px;
+    margin: 6px 0px 0px -25px;
+}
+
+.card {
+    width: 500px;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
